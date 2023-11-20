@@ -1,0 +1,22 @@
+p {
+    color: green;
+  }
+  
+  p, li {
+    color: green;
+  }
+  li {
+    list-style-type: none;
+  }
+  
+  .special {
+    color: orange;
+    font-weight: bold;
+  }
+  
+  li.special {
+    color: orange;
+    font-weight: bold;
+  }
+  
+  

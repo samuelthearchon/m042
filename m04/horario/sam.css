@@ -1,0 +1,11 @@
+table, th, td {
+    border:1px
+ black;
+ 
+  }
+  .sam{
+   color: aqua;
+  }
+  td:hover {
+    background-color: yellow;
+  }

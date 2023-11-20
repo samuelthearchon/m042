@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menu Desplegable</title>
+    <style type="text/css">
+        * {
+            margin:0px;
+            padding:0px;
+            text-align: center;
+            color: blue;
+        }
+
+        #header {
+            margin:auto;
+            width:500px;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        ul, ol {
+            list-style:none;
+        }
+
+        .nav > li {
+            float:left;
+        }
+
+        .nav li a {
+            background-color:blue;
+            color:#fff;
+            text-decoration:none;
+            padding:10px 12px;
+            display:block;
+        }
+
+        .nav li a:hover {
+            background-color:#434343;
+        }
+
+        .nav li ul {
+            display:none;
+            position:absolute;
+            min-width:140px;
+        }
+
+        .nav li:hover > ul {
+            display:block;
+        }
+
+        .nav li ul li {
+            position:relative;
+        }
+
+        .nav li ul li ul {
+            right:-140px;
+            top:0px;
+        }
+
+        #search {
+            float: right;
+            margin-top: 10px;
+        }
+
+        #search form {
+            display: flex;
+        }
+
+        #search input[type="search"] {
+            color: #000;
+            text-align: left;
+            cursor: text;
+            display: block;
+            width: 200px;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px 0 0 5px;
+        }
+
+        #search button {
+            background-color: #007BFF;
+            color: #fff;
+            border: 1px solid #007BFF;
+            border-radius: 0 5px 5px 0;
+            padding: 5px;
+            cursor: pointer;
+        }
+
+        #search button:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <ul class="nav">
+            <li><a href="">Xulles.cat</a></li>
+            <li><a href="">Copiar amb swag</a></li>
+            <li><a href="">Excuses si et pillen</a></li>
+            <li><a href="">Tipus de xulles</a>
+                <ul>
+                    <li><a href="">Corporals</a></li>
+                    <li><a href="">En calculadora</a></li>
+                    <li><a href="">En boligraf</a></li>
+                    <li><a href="">Electroniques</a>
+                        <ul>
+                            <li><a href="">programació</a></li>
+                            <li><a href="">xarxes</a></li>
+                            <li><a href="">sistemes operatius</a></li>
+                            <li><a href="">hardware</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="">Materies</a></li>
+            <div id="search">
+                <form>
+                    <input type="search" placeholder="Cerca xulles...">
+                    <button type="submit">&#128269;</button>
+                </form>
+            </div>
+        </ul>
+    </div>
+</br>
+
+</br>
+</br>
+</br>
+</br>
+    <p>Domina el art de perdre molt molt mes temps confeccionant complicats sistemes per a copiar del que et costaria aprovar els examens estudiant, perque aixo es massa facil.</p>
+</body>
+</html>
